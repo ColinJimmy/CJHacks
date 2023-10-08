@@ -4,8 +4,7 @@ const paragraphs = [
     "The Moon is shaped like a lemon",
     "On Mercury a day is twice as long as a year",
     "The largest asteroid in our solar system is a mammoth piece of space rock named Ceres",
-    "Black holes have theoretical opposites known as white holes",
-    ""
+    "Black holes have theoretical opposites known as white holes"
 ]; // Add your paragraph texts here
 
 let currentIndex = 0;
@@ -17,7 +16,7 @@ function changeContent() {
 }
 
 // Call the changeContent function every 5 seconds
-setInterval(changeContent, 5000);
+setInterval(changeContent, 3000);
 
 // Initial call to display the first content
 changeContent();
