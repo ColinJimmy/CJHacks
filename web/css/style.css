@@ -1723,3 +1723,8 @@ z-index:10;
       transform: translateY(-2000px);
     }
   }
+
+  .img-fluid:hover{
+    transform: scale(1.2);
+
+  }
