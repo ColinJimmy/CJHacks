@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image:url("https://img.freepik.com/free-photo/snowy-mountain-peak-starry-galaxy-majesty-generative-ai_188544-9650.jpg?w=1060&t=st=1696701582~exp=1696702182~hmac=8010c555bd96176336035938c2e0914f9a06f8e3794336a13727913ad0fcf86d");
+    background-size:cover;
+}
+.facto {
+    font-size:80px;
+    color: white;
+}
+
+.facto > P {
+    margin-top: 150px;
+}
+
+/* .container {
+   /* margin-top: 90px; 
+}*/
+
+
+img {
+    max-width: 10%;
+    height: auto;
+}
+
+#paragraph {
+    font-size: 60px;
+    margin-bottom: 50px;
+    color:white;
+    font-weight: bold;
+}
