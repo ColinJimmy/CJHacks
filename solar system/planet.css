@@ -1,0 +1,43 @@
+.main {
+    background-color: transparent; /* or background-color: rgba(0, 0, 0, 0); */
+    
+}
+body {
+    background-image: url(https://img.freepik.com/premium-photo/night-sky-with-stars-soft-milky-way-universe_117930-1.jpg?size=626&ext=jpg&ga=GA1.1.1221540289.1696682951&semt=ais);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main img:hover {
+    opacity: 0.8;
+    transform: scale(1.7);
+    background-color: transparent;
+    color: black;
+}
+
+.sun{
+    height: 1000px;
+    width: 1000px;
+}
+
+/* Define the styles for the description */
+.m {
+    position: absolute;
+    background: transparent;
+    font-size: 30px;
+    font-family: sans-serif;
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Target the description when hovering over the containing .main div */
+.main:hover .m {
+    visibility: visible;
+    opacity: 1;
+    background-color: transparent;
+    color: red; /* Text color when visible and on hover */
+}
+
