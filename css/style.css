@@ -377,7 +377,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .banner-top {
-    background: url(../images/space_img/spaceship-orbits-dark-galaxy-glowing-blue-comet-generated-by-ai.jpg) no-repeat center;
+    background: url(../space_img/spaceship-orbits-dark-galaxy-glowing-blue-comet-generated-by-ai.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -387,7 +387,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .banner-top1 {
-    background: url(../images/space_img/2474215.jpg) no-repeat center;
+    background: url(../space_img/2474215.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -396,7 +396,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .banner-top2 {
-    background: url(../images/space_img/galaxy-night-landscape.jpg) no-repeat 0px 0px;
+    background: url(../space_img/galaxy-night-landscape.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -405,7 +405,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .banner-top3 {
-    background: url(../images/space_img/low-angle-shot-mesmerizing-starry-sky.jpg) no-repeat center;
+    background: url(../space_img/low-angle-shot-mesmerizing-starry-sky.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -994,7 +994,7 @@ a.move-top span{
 
 /*-- inner banner --*/
 .banner_inner {
-    background: url(../images/space_img/spaceship-orbits-dark-galaxy-glowing-blue-comet-generated-by-ai.jpg) no-repeat center;
+    background: url(../space_img/spaceship-orbits-dark-galaxy-glowing-blue-comet-generated-by-ai.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
