@@ -1,9 +1,9 @@
 const paragraphs = [
-    "The Apollo astronauts footprints on the moon will probably stay there for at least 100 million years",
-    "The Moon is shaped like a lemon",
-    "On Mercury a day is twice as long as a year",
-    "The largest asteroid in our solar system is a mammoth piece of space rock named Ceres",
-    "Black holes have theoretical opposites known as white holes"
+    "It takes Sunlight 43 minutes to travel from the Sun to Jupiter",
+    "Jupiter has 80 moons",
+    "The composition of Jupiter is similar to that of the Sun mostly hydrogen and helium.",
+    "There are clouds on Jupiter",
+    "A Spacecraft would have nowhere to land on Jupiter, it wouldnt be able to fly through unscathed either. The extreme pressures and temperatures deep inside the planet crush, melt, and vaporize spacecraft trying to fly into the planet."
 ]; // Add your paragraph texts here
 
 let currentIndex = 0;
