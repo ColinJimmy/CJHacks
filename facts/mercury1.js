@@ -3,7 +3,7 @@ const paragraphs = [
     "On Mercury a day is twice as long as a year",
     "Sunlight is 11 times brighter on Mercury",
     "A year on Mercury is 88 Earth days",
-    "Mercury orbits closest to the Sun.",
+    "Mercury orbits closest to the Sun."
 ]; // Add your paragraph texts here
 
 let currentIndex = 0;
