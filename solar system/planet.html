@@ -32,58 +32,198 @@
     </div>
 </body>
 </html> -->
-<html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    
-<link rel="stylesheet" href="http://127.0.0.1:5500/web/planet.css?_cacheOverride=1696755047740">
-<link rel="stylesheet" href="planet.css">
-</head>
-<body>
-    
-    <div class="main" style="display: flex; flex-direction: row; align-items: center;">
-        <div class="sun">
-            <a href="sun.html" title="sun"><img src="sun.png" style=" height: 2800px;
-                width: 1800px;
-                margin-left: -900px;
-                margin-top: -560px;"><p class="m">SUN</p></a>
-        </div>
-        
-        <!-- <p>Sun</p> -->
-       
-        <a href="mercury.html"><img src="mercury-removebg-preview.png" style="height: 200px; width: 200px;position:relative; align-items:absolute;margin-left: -100px; margin-top: 250px"></a>
-        <!-- <p>Mercury</p> -->
-        
-       
-        <a href="venus.html"><img src="venus-removebg-preview.png" style="height: 420px; width: 470px;position:relative; align-items:absolute;margin-left: 50px; margin-top: 250px"></a>
-        <a href="Earth.html"><img src="earth.png" style="height: 450px; width: 450px;position:relative; align-items:absolute;margin-left: 50px; margin-top: 250px"></a>
-        <a href="moon.html" class="moon"><img src="moon-removebg-preview.png" style="height: 100px; width: 100px;position:relative; align-items:absolute;margin-left: 20px; margin-top: 600px"></a>
-       
-       
-        <!-- <-->
-        <!-- <p>Earth</p> -->
-        <a href="mars.html"><img src="mars-removebg-preview.png" style="height: 360px; width: 370px;position:relative; align-items:absolute;margin-left: 100px; margin-top: 250px"></a>
-        
-        <!-- <p>Mars</p> -->
-        <a href="jupiter.html"><img src="jupiter-removebg-preview.png" style="height: 802px; width:988px;position:relative; align-items:absolute;margin-left:0px; margin-top: 250px"></a>
-        
-       
-        <!-- <p>Jupiter</p> -->
-        <a href="Saturn.html"><img src="saturn-removebg-preview.png" style="height: 800px; width:1400px;position:relative; align-items:absolute;margin-left:-150px; margin-top: 250px"></a>
-        
-       
-        <!-- <p>Saturn</p> -->
-        <a href="uranus.html"><img src="uranuus-removebg-preview.png" style="height: 450px; width:850px;position:relative; align-items:absolute;margin-left:-300px; margin-top: 250px"></a>
-        
-       
-        <!-- <p>Uranus</p> -->
-        <a href="neptune.html"><img src="neptune-removebg-preview.png" style="height: 450px; width:450px;position:relative; align-items:absolute;margin-left:-150px; margin-top: 250px"></a>
 
-        <!-- <p>Neptune</p> -->
+    <link
+      rel="stylesheet"
+      href="http://127.0.0.1:5500/web/planet.css?_cacheOverride=1696755047740"
+    />
+    <link rel="stylesheet" href="planet.css" />
+    <style>
+      .attractive-button {
+        background-color: #093d65; /* Green background color */
+        border: none; /* Remove button border */
+        color: white; /* Text color */
+        padding: 12px 24px; /* Padding for text inside the button */
+        text-align: center; /* Center text horizontally */
+        text-decoration: none; /* Remove underlines from links */
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 4px; /* Add some margin to the button */
+        cursor: pointer; /* Change cursor on hover */
+        border-radius: 8px; /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth background color transition */
+
+        /* Add a shadow effect */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .attractive-button:hover {
+        background-color: #050334; /* Darker green on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainpla"></div>
+    <header>
+      <div class="container">
+        <div class="row">
+          <a href="/web/index.html" style="padding-left: 50%; text-align:center" 
+            ><button class="attractive-button">HOME</button></a
+          >
+        </div>
+      </div>
+    </header>
+    <div
+      class="main"
+      style="display: flex; flex-direction: row; align-items: center"
+    >
+      <div class="sun">
+        <a href="/facts/sun.html" title="sun"
+          ><img
+            src="sun.png"
+            style="
+              height: 1742px;
+              width: 955px;
+              margin-left: -597px;
+              margin-top: -191px;
+            "
+          />
+          <p class="m">SUN</p></a
+        >
+      </div>
+      <!-- <p>Sun</p> -->
+
+      <a href="/facts/mercury1.html"
+        ><img
+          src="mercury-removebg-preview.png"
+          style="
+            height: 200px;
+            width: 200px;
+            position: relative;
+            align-items: absolute;
+            margin-left: -100px;
+            margin-top: 250px;
+          "
+      /></a>
+      <!-- <p>Mercury</p> -->
+
+      <a href="/facts/venus.html"
+        ><img
+          src="venus-removebg-preview.png"
+          style="
+            height: 420px;
+            width: 470px;
+            position: relative;
+            align-items: absolute;
+            margin-left: 50px;
+            margin-top: 250px;
+          "
+      /></a>
+      <a href="/facts/"
+        ><img
+          src="earth.png"
+          style="
+            height: 450px;
+            width: 450px;
+            position: relative;
+            align-items: absolute;
+            margin-left: 50px;
+            margin-top: 250px;
+          "
+      /></a>
+      <a href="/facts/moon.html" class="moon"
+        ><img
+          src="moon-removebg-preview.png"
+          style="
+            height: 100px;
+            width: 100px;
+            position: relative;
+            align-items: absolute;
+            margin-left: 20px;
+            margin-top: 600px;
+          "
+      /></a>
+
+      <!-- <-->
+      <!-- <p>Earth</p> -->
+      <a href="/facts/mars.html"
+        ><img
+          src="mars-removebg-preview.png"
+          style="
+            height: 360px;
+            width: 370px;
+            position: relative;
+            align-items: absolute;
+            margin-left: 100px;
+            margin-top: 250px;
+          "
+      /></a>
+
+      <!-- <p>Mars</p> -->
+      <a href="/facts/jupiter.html"
+        ><img
+          src="jupiter-removebg-preview.png"
+          style="
+            height: 802px;
+            width: 988px;
+            position: relative;
+            align-items: absolute;
+            margin-left: 0px;
+            margin-top: 250px;
+          "
+      /></a>
+
+      <!-- <p>Jupiter</p> -->
+      <a href="/facts/saturn.html"
+        ><img
+          src="saturn-removebg-preview.png"
+          style="
+            height: 800px;
+            width: 1400px;
+            position: relative;
+            align-items: absolute;
+            margin-left: -150px;
+            margin-top: 250px;
+          "
+      /></a>
+
+      <!-- <p>Saturn</p> -->
+      <a href="/facts/uranus.html"
+        ><img
+          src="uranuus-removebg-preview.png"
+          style="
+            height: 450px;
+            width: 850px;
+            position: relative;
+            align-items: absolute;
+            margin-left: -300px;
+            margin-top: 250px;
+          "
+      /></a>
+
+      <!-- <p>Uranus</p> -->
+      <a href="/facts/neptune.html"
+        ><img
+          src="neptune-removebg-preview.png"
+          style="
+            height: 450px;
+            width: 450px;
+            position: relative;
+            align-items: absolute;
+            margin-left: -150px;
+            margin-top: 250px;
+          "
+      /></a>
+
+      <!-- <p>Neptune</p> -->
     </div>
-<!-- Code injected by live-server -->
-<!-- <script>
+    <!-- Code injected by live-server -->
+    <!-- <script>
 	// <![CDATA[  <-- For SVG support
 	if ('WebSocket' in window) {
 		(function () {
@@ -119,6 +259,6 @@
 		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
 	}
 	// ]]> -->
-<!-- </script> -->
-
-</body></html>
+    <!-- </script> -->
+  </body>
+</html>
