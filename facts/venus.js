@@ -2,9 +2,9 @@ const paragraphs = [
     "Venus day is longer than its year",
     "Venus sulfuric acid clouds smell like rotten eggs",
     "More than 40 spacecraft have visited Venus",
-    "Venus is similar in size to Earth"
-    
-    
+    "Venus is similar in size to Earth",
+    "Its the hottest planet",
+    "It doesnt have its own internally generated magnetic field"
 ]; // Add your paragraph texts here
 
 let currentIndex = 0;
@@ -16,7 +16,7 @@ function changeContent() {
 }
 
 // Call the changeContent function every 5 seconds
-setInterval(changeContent, 5000);
+setInterval(changeContent, 3000);
 
 // Initial call to display the first content
 changeContent();
