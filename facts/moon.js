@@ -1,9 +1,9 @@
 const paragraphs = [
-    "The Apollo astronauts footprints on the moon will probably stay there for at least 100 million years",
-    "The Moon is shaped like a lemon",
-    "On Mercury a day is twice as long as a year",
-    "The largest asteroid in our solar system is a mammoth piece of space rock named Ceres",
-    "Black holes have theoretical opposites known as white holes"
+    "The moon is actually lemon shaped.",
+    "The Moon is moving approximately 3.8 cm away from our planet every year.",
+    "1 Moon day = 27.3 Earth days",
+    "Although the moon looks quite close to the Earth, it is actually 239,000 miles away – about 45 times as long as the Great Wall of China!",
+    "Moon dust smells like gunpowder"
 ]; // Add your paragraph texts here
 
 let currentIndex = 0;
